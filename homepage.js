@@ -21,6 +21,8 @@
 
 let footer = document.querySelector(".footer");
 
+footer.style.background = "var(--MainColor)";
+
 let copyRight = document.querySelector(".copyRight");
 
 let dropdowncontent = document.querySelector(".dropdown-content");
@@ -36,7 +38,7 @@ replacePhone.innerHTML = `  <i class="fad fa-phone-volume"></i>
 
 footer.innerHTML = `  <div class="dateContact">
 <h1> Date de contact:</h1>
-<p> <i class="fas fa-map-marker-alt"></i>  Str. Ștefan cel Mare nr 1-3 <br> <span style="padding-left: 18px;">  bl. Perla SC. 2 Et. 3 ap. 54 Interfon 054, Bucuresti, Sector 1 <br><span style="padding-left: 18px;">(Dorobanţi - Perla)</span>  </span> </p>
+<p> <i class="fas fa-map-marker-alt"></i> Dorobanţi - Perla <br> <span style="padding-left: 18px;">Soseaua Ștefan cel Mare nr 1-3 <br> </span>  <span style="padding-left: 18px;"> Bl. Perla Sc. 2 Et. 3 ap. 54 Interfon 054 <br>  <span style="padding-left: 18px;"> Bucuresti, Sector 1 <br>  </span> </p>
 <br><br>
 <p> <i class="fas fa-phone-alt"></i> 0737 129 122 <br> <span style="padding-left: 20px;"> </span></p>
 <br><br>
@@ -91,14 +93,15 @@ dropdowncontent.innerHTML = `
   <a href="pshihologia-tranporturilor.html"> AVIZ Psihologia Transporturilor </a>
   <a href="obtinere-permis-conducere.html"> AVIZ OBȚINERE PERMIS CONDUCERE</a>
   <a href="pshihologia-muncii-medicina-muncii.html">AVIZ Psihologia Muncii  </a>
+  <a href="aviz-psihologic-ambarcatiuni.html">AVIZ PSIHOLOGIC
+  AMBARACŢIUNI  </a>
   <a href="evaluare-clinica.html"> EVALUARE
     CLINICA & PSIHIATRIE </a>
   <a href="cursuri-dezvoltare-personala.html">
   DEZVOLTARE PERSONALA
   & CURSURI</a>
   <a href="#">SUPERVIZARE PROFESIONALA ÎN PSIHOLOGIE</a>
-  <a href="#">BATERIE DE TESTE
-    ȘI PROFILE PSIHOLOGI </a>
+
   <a href="#">PSIHOLOGIA
     MUNCII ȘI ORGANIZAȚIONALĂ</a>
   <a href="#">PSIHOTERAPIE & CONSILIERE
