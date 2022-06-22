@@ -1,8 +1,14 @@
+<?php
+
+
+session_start();
+
+?>
 
 <!DOCTYPE html>
 <html lang="ro-RO" xml:lang="ro">
     <head>
-        <title>Centrul De Evaluare Psihologica "Dorobanţi - Perla" Eliberam Avize Psihologice</title>
+        <title>Centrul De Evaluare Psihologica "Dorobanţi - Perla"</title>
         <meta property="og:title" content="Centrul De Evaluare Psihologica 'Dorobanţi - Perla'">
         <meta charset="UTF-8">
        <meta name="description" content="Cabinet psihologic situat in Bucuresti Sector 1, oferim test si aviz psihologic examen auto, aviz psihologic permis arma, psihoterapie , consiliere psihologica, etc">
@@ -26,38 +32,31 @@
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
-
-  
-
-    
-
     <body>
-
 
 <!-- Nav Section -->
 
         <div class="navDesc">
 
            <a href="/">
-            <div class="logo" >
-                <img id="logo" width="160px" height="170px" alt="aviz" title="psiholog" src="Photos/LogoDorobantiPerla.png">
+            <div class="logo">
+                <img id="logo" alt="aviz" title="psiholog" src="Photos/LogoDorobantiPerla.png">
             </div>
            </a> 
 
             <div class="locationNav">
                 <i class="fas fa-map-marked-alt"></i>
                 <div>
-                  Dorobanţi - Perla <br>
-                  Soseaua Stefan cel Mare Nr. 1-3 Bloc Perla Sc. 2 Et. 3<br>
-                  Bucuresti Sector 1
-               </div>
+                    Str. Soseaua Stefan cel Mare Nr. 1-3 <br>
+                    Bucuresti Sector 1 (Dorobanţi - Perla)
+                </div>
             </div>
 
             <div class="phoneNav">
                 <i class="fad fa-phone-volume"></i>
                 <div>
-                    0737 129 122<br>
-                     
+                    0724 274 099<br>
+                    0722 296 218
                 </div>
             </div>
 
@@ -65,7 +64,7 @@
                 <i class="far fa-clock"></i>
                 <div>
                     Luni-Vineri <br>
-                    9:00 - 21:00
+                    9:00 - 17:00
                 </div>
             </div>
 
@@ -126,22 +125,14 @@
 
             <h1 style="font-family: 'Merriweather', Sans-serif;" class="nameCompany"> Centrul de Evaluare <br> Psihologica "Dorobanţi - Perla"</h1>
 
-
-            <a href="port-arma.html">
-              <div   style="top:7%" class="consultatieButton">
-                  TEST Psihologic  <br> MAI cu timbru <br> Aviz Port Arma  <span></span>
-                  <div class="new"> Nou</div>
-             </div>
-             </a> 
            
            <a href="evaluare-clinica.html">
-            <div  style="top:23%;" class="consultatieButton">
+            <div class="consultatieButton">
                 Evaluare clinica <br> Deplasari la domiciliu <br>  MMSE, GAFS  <span></span>
                 <div class="new"> Nou</div>
            </div>
-           </a>   
+           </a>     
            
-  
 
             <!-- <div class="visitCard">
                 <div class="elem">
@@ -190,12 +181,12 @@
 
 <!-- Departamente -->
 
-
+<div data-aos="fade-up">
+<div id="servicii" class="departamenteBigContainer">
             <h1 class="informationText"> Servicii Oferite</h1>
 
             <div class="allDepartments">
 
-                <div id="servicii" class="departamenteBigContainer">
                 <div class="department">
 
                   
@@ -237,7 +228,7 @@
                     </a>
                 </div>
 
-              
+                
 
                 <div class="department">
                     <a class="card" href="evaluare-clinica.html#table"> 
@@ -272,26 +263,14 @@
                         
                     </div>
 
-                    <!-- <div class="card">
+                    <div class="card">
                         <div class="card8"></div>   
                         <h2 class="textDep">  Baterie de teste  <br> & Profile Psihologice     </h2>                
                        <div class="viewMore">
                            Detalii
                        </div>     
                         
-                    </div> -->
-
-                    <a class="card" href="https://psyhology.ro/aviz-psihologic-ambarcatiuni.html" >
-                    
-                      <div class="card8"></div>   
-                      <h2 class="textDep">  AVIZ PSIHOLOGIC  <br> AMBARACŢIUNI de agrement   </h2>                
-                     <div class="viewMore">
-                         Detalii
-                     </div>     
-                      
-                 
-                    </a>
-
+                    </div>
                 </div>
 
 
@@ -322,7 +301,7 @@
                        </div>                       
                     </a>
                 </div>
-            
+            </div>
 
         </div>
 </div>
@@ -351,7 +330,7 @@
           <div class="swiper-slide">
             <div class="allTestimonials">
                 <figure class="snip1390">
-                    <img src="Reviews Images/1.png" alt="Aviz Psihologic" title="Aviz Psihologic" class="profile" />
+                    <img src="Reviews Images/1.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Cătălin Lupu</h2>
                       <h4>Aviz Port Arma</h4>
@@ -362,7 +341,7 @@
                     </figcaption>
                   </figure>
                   
-                  <figure class="snip1390 hover"><img src="Reviews Images/2.png" alt="Aviz Permis Conducere" title="Aviz Permis Conducere" class="profile" />
+                  <figure class="snip1390 hover"><img src="Reviews Images/2.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Paul Grigoras</h2>
                       <h4>Aviz Obtinere Permis Conducere</h4>
@@ -371,7 +350,7 @@
                         Recomand cu încredere. </blockquote>
                     </figcaption>
                   </figure>
-                  <figure class="snip1390"><img src="Reviews Images/3.png" alt="Aviz Psihologic Port Arma"  title="Aviz Psihologic Port Arma" class="profile" />
+                  <figure class="snip1390"><img src="Reviews Images/3.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>George Popescu</h2>
                       <h4>Aviz Psihologic Ambarcatiuni</h4>
@@ -383,7 +362,7 @@
           <div class="swiper-slide">
             <div class="allTestimonials">
                 <figure class="snip1390">
-                    <img src="Reviews Images/5.png" alt="Aviz Psihologic Soferi Profesionisti" title="Aviz Psihologic Soferi Profesionisti" class="profile" />
+                    <img src="Reviews Images/5.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Mircea Stanciulescu</h2>
                       <h4>Aviz Siguranta Transporturilor</h4>
@@ -396,7 +375,7 @@
                     </figcaption>
                   </figure>
                   
-                  <figure class="snip1390 hover"><img src="Reviews Images/6.png" alt="Aviz Psihologic Permis Conducere" title="Aviz Psihologic Obtinere Permis Conducere" class="profile" />
+                  <figure class="snip1390 hover"><img src="Reviews Images/6.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Alexandru Vlad</h2>
                       <h4>Aviz Obtinere Permis Conducere</h4>
@@ -416,7 +395,7 @@
           <div class="swiper-slide">
             <div class="allTestimonials">
                 <figure class="snip1390">
-                    <img src="Reviews Images/8.png" alt="Avize Psihologice" title="Avize Psihologice" class="profile" />
+                    <img src="Reviews Images/8.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Aura Damaschin</h2>
                       <h4>Aviz Psihologic</h4>
@@ -424,14 +403,14 @@
                     </figcaption>
                   </figure>
                   
-                  <figure class="snip1390 hover"><img src="Reviews Images/9.png" alt="Aviz Psihologic Permis" title="Aviz Psihologic Permis" class="profile" />
+                  <figure class="snip1390 hover"><img src="Reviews Images/9.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Mircea Tara</h2>
                       <h4>Aviz Obtinere Permis Conducere</h4>
                       <blockquote>Profesionalism si grija oameni.</blockquote>
                     </figcaption>
                   </figure>
-                  <figure class="snip1390"><img src="Reviews Images/10.png" alt="Avize Dorobanti Perla" title="Avize Dorobanti Perla" class="profile" />
+                  <figure class="snip1390"><img src="Reviews Images/10.png" alt="profile-sample3" class="profile" />
                     <figcaption>
                       <h2>Roxana Ghiorghe</h2>
                       <h4> Aviz psihologic </h4>
@@ -463,7 +442,7 @@
     
 
 
-    <!-- <div id="newsletter">
+    <div id="newsletter">
 
 <h1> Aboneaza-te la newsletter: </h1>
 
@@ -487,21 +466,19 @@
         echo "<h1> Email-ul exista deja in baza de date </h1>";
     }
 ?>
-</div> -->
-
-
+</div>
 
 
 
         <div class="footer" style="margin-top: 100px;">
 
-          
+            
 
             <div class="dateContact">
                 <h1> Date de contact:</h1>
                 <p> <i class="fas fa-map-marker-alt"></i>  Str. Ștefan cel Mare nr 1-3 <br> <span style="padding-left: 18px;">  bl. 5 SC. 2 Et. 3 ap. 54 Interfon 054, Bucuresti, Sector 1 <br><span style="padding-left: 18px;">(Dorobanţi - Perla)</span>  </span> </p>
                 <br><br>
-                <p> <i class="fas fa-phone-alt"></i> 0737 129 122 <br> <span style="padding-left: 20px;">   </span></p>
+                <p> <i class="fas fa-phone-alt"></i> 0724 274 099 <br> <span style="padding-left: 20px;">  0722 296 218</span></p>
                 <br><br>
                 <a  href="mailto:consultatie@psyhology.ro" class="emailBox">
                 <i class="far fa-envelope" > </i> consultatie@psyhology.ro
@@ -540,14 +517,14 @@
             </div>
 
           
-                 
+            
 
         </div>
 
         <div class="copyRight">
 
-            <div class="logoFooter" >
-                <img  id="logo" alt="aviz" title="psiholog" src="Photos/LogoDorobantiPerla.png">
+            <div class="logoFooter">
+                <img id="logo" alt="aviz" title="psiholog" src="Photos/LogoDorobantiPerla.png">
             </div>
              Copyright © 2022 
                 <br> <br>
@@ -561,22 +538,20 @@
         <script src="swipper.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
             <script>
     
                 AOS.init({
                     disable: function() {
-                      var maxWidth = 900;
-                      return window.innerWidth < maxWidth;
-                    },
+    var maxWidth = 900;
+    return window.innerWidth < maxWidth;
+  },
                     duration:1000,   
-
                 });
-
             </script>
 
  
-           
+
 
 
 <!--Start of Tawk.to Script-->
