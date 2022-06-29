@@ -66,7 +66,7 @@ navTop.innerHTML = `
                 
                   <div>
                     Sâmbătă <br>
-                    9:00 - 21:00
+                    9:00 - 16:00
                     
                 </div>
               
