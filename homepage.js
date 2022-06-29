@@ -27,7 +27,59 @@ let copyRight = document.querySelector(".copyRight");
 
 let dropdowncontent = document.querySelector(".dropdown-content");
 
-let replacePhone = document.querySelector(".navDesc .phoneNav");
+let navTop = document.querySelector(".navDesc");
+
+navTop.innerHTML = `
+<a href="/">
+            <div class="logo" >
+                <img id="logo" width="160px" height="170px" alt="aviz psihologic" title="aviz psihologic auto / port arma / permis / servici " src="Photos/LogoDorobantiPerla.png">
+            </div>
+           </a> 
+
+        
+
+              <div class="locationNav">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <div>
+                    Dorobanţi - Perla <br>
+                    Soseaua Stefan cel Mare Nr. 1-3 Bloc Perla Sc. 2 Et. 3<br>
+                    Bucuresti Sector 1
+                 </div>
+              </div>
+            
+              
+              <div class="phoneNav">
+                  <i class="fad fa-phone-volume"></i>
+                  <div>
+                      0737 129 122<br>
+                       
+                  </div>
+              </div>
+            
+              <div class="programNav">
+                  <i class="far fa-clock"></i>
+                  <div>
+                      Luni-Vineri <br>
+                      9:00 - 21:00
+                      
+                  </div>
+                
+                  <div>
+                    Sâmbătă <br>
+                    9:00 - 21:00
+                    
+                </div>
+              
+              </div>
+            
+              <div  style="text-align: center;" class="program">
+              
+                <h3 style="padding-bottom: 5px;">Program</h3> 
+                  
+                  <p> Luni-Vineri : 9:00 - 21:00</p> 
+                  <p style="padding-left: 15px;"> Sâmbătă : 9:00 - 16:00</p>
+              
+              </div>`;
 
 replacePhone.innerHTML = `  <i class="fad fa-phone-volume"></i>
 <div>
