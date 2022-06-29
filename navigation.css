@@ -83,7 +83,9 @@ a {
     background:  var(--SecondColor);
 }
 
-
+.program {
+    padding: 10px 15px;
+}
 
 
 
@@ -388,6 +390,9 @@ nav {
 
 /* responsive mobile */
 
+.program {
+    display: none;
+}
 
 @media screen and (max-width:1200px) {
     .navDesc {
@@ -608,6 +613,13 @@ nav {
         display: none;
     }
 
+    .navDesc {
+        flex-direction: column;
+    }
+
+    .program {
+        display: block;
+    }
    
 }
 
