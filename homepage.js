@@ -71,8 +71,6 @@ navTop.innerHTML = `
                 </div>
               
               </div>
-
-            
             
               <div  style="text-align: center;" class="program">
 
@@ -82,13 +80,6 @@ navTop.innerHTML = `
                   <p style="padding-left: 15px;"> 9:00 - 21:00 <br>  9:00 - 16:00</p>
                   </div>
               </div>`;
-
-replacePhone.innerHTML = `  <i class="fad fa-phone-volume"></i>
-<div>
-    0737 129 122<br>
-  
-</div>
-`;
 
 footer.innerHTML = `  <div class="dateContact">
 <h1> Date de contact:</h1>
@@ -138,7 +129,7 @@ copyRight.innerHTML = ` <div class="logoFooter">
 </div>
 Copyright © 2022 
 <br> <br>
-<p style="font-weight: bold;font-size: 115%;"> Centrul De Evaluare Psihologica "Dorobanţi - Perla"  </p> 
+<p style="font-weight: bold;font-size: 115%;"> Centrul De Evaluare Psihologica <br> "Dorobanţi - Perla"  </p> 
 <br>
 BUCURESTI SECTOR 1 `;
 
