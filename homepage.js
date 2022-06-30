@@ -71,14 +71,16 @@ navTop.innerHTML = `
                 </div>
               
               </div>
+
+            
             
               <div  style="text-align: center;" class="program">
-              
-                <h3 style="padding-bottom: 5px;">Program</h3> 
-                  
-                  <p> Luni-Vineri : 9:00 - 21:00</p> 
-                  <p style="padding-left: 15px;"> Sâmbătă : 9:00 - 16:00</p>
-              
+
+                  <h3 style="padding-bottom: 5px;">Program</h3>
+                  <div style="display:flex">
+                  <p> Luni-Vineri : <br> Sâmbătă : </p> 
+                  <p style="padding-left: 15px;"> 9:00 - 21:00 <br>  9:00 - 16:00</p>
+                  </div>
               </div>`;
 
 replacePhone.innerHTML = `  <i class="fad fa-phone-volume"></i>
