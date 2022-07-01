@@ -183,13 +183,15 @@ dropdowncontent.innerHTML = `
   } else {
  
 
-document.body.innerHTML += `<a href ='tel:0737129122' class="phone-call"><img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" width="50" alt="Call Now" title="Call Now"></a>`;
+document.body.innerHTML += `<a style="display:flex;justify-content: center;align-items:center" href ='tel:0737129122' class="phone-call"><i style="font-size:30px" class="fa">&#xf095;</i> </a>`;
 
 
 
 
   }
 
+
+  /* <a style="display:flex;justify-content: center;align-items:center" href ='tel:0737129122' class="phone-call"><i style="font-size:30px" class="fa">&#xf095;</i> </a> */
 
 
 
