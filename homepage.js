@@ -194,5 +194,8 @@ document.body.innerHTML += `<a style="display:flex;justify-content: center;align
   /* <a style="display:flex;justify-content: center;align-items:center" href ='tel:0737129122' class="phone-call"><i style="font-size:30px" class="fa">&#xf095;</i> </a> */
 
 
+// title add bucuresti sector 1 dorobanti perla for seo
 
+  document.title+= ", Bucuresti Sector 1, Dorobanţi - Perla";
 
+  // title add bucuresti sector 1 dorobanti perla for seo
