@@ -458,6 +458,10 @@ nav {
 
 
 @media screen and (max-width:950px) {
+    .h1Title {
+        display: none;
+    } 
+
     .navDesc {
         width: 100%;
         margin: auto;
