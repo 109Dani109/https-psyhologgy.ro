@@ -263,6 +263,8 @@
     cursor: pointer;
 }
 
+
+
 .card.three {
     width: 540px;
 }
@@ -753,6 +755,9 @@
         cursor: pointer;
     
     }
+
+    
+
     .textDep {
         position: absolute;
         bottom: 20px;

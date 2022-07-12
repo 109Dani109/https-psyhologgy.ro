@@ -296,6 +296,38 @@ nav {
     transform: none;
   }
 
+
+  .h1Title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 15px;
+
+    
+  }
+
+  .strong  {
+
+    font-size: 101%;
+
+  }
+
+  .listaAvize {
+
+    padding: 30px 50px;
+    font-family: 'Montserrat',sans-serif;
+
+  }
+
+  .listaAvize li {
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 0px;   
+    font-size: 20px;
+    color: #303030!important;
+
+  }
+
+
   #newsletter {
       width: 100%;
       height: 300px;
@@ -563,6 +595,21 @@ nav {
         
     } 
 
+    .listaAvize {
+
+        padding: 30px 30px;
+        
+    
+      }
+
+    .content h2 {
+      text-align: center;
+    } 
+
+    .h1Title {
+        display: none;
+    } 
+
     nav {
         display: block;
         position: sticky;
@@ -635,3 +682,5 @@ nav {
 
    
 }
+
+ 
