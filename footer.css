@@ -200,7 +200,7 @@
     
     position: relative;
     top:0px;
-    padding: 2px;
+    padding: 1px;
     left:0%;
     background: var(--MainColor);
     color: white;
@@ -232,3 +232,5 @@
     float: left;
     padding-left: 20px;
   }
+
+
