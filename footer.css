@@ -234,3 +234,11 @@
   }
 
 
+
+  @media screen and (max-width: 850px) {
+    .tickerwrapper {
+
+        padding: 3px;
+
+    }
+}
