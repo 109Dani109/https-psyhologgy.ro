@@ -205,12 +205,11 @@
     background: var(--MainColor);
     color: white;
     width: 99.9%;
-    height: 100px;
     overflow: hidden;
     cursor: pointer;
     z-index: 100;
-    font-size: 19px;
-
+    font-size: 20px;
+    height: 30px;
    
   }
   
