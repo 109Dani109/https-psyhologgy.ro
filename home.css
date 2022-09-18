@@ -558,7 +558,7 @@
     }
 }
 
-@media screen and (max-width:950px) { 
+@media screen and (max-width:1050px) { 
     .consultatieButton {
         position: relative;
         background-color: var(--MainColor);
