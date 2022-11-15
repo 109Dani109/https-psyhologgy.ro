@@ -271,4 +271,4 @@ $tickerWrapper.on("mouseenter", function(){
 
 // seo bar
 
-setTimeout(() => {alert("Programrea se face pe loc , sună acum , avizul se elibereaza imediat.")}, 5000)
+// setTimeout(() => {alert("Programrea se face pe loc , sună acum , avizul se elibereaza imediat.")}, 5000)
